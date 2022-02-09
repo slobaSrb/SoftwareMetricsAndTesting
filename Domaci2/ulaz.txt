@@ -1,0 +1,21 @@
+4 Broj karakteristika 
+A 4 A1 A2 A3 A4 ----- K1 broj_blokova b1 b2 ..  
+B 4 B1 B2 B3 B4
+C 4 C1 C2 C3 C4
+D 3 D1 D2 D3 
+3 - broj baza
+A1 B2 C3 D1
+A1 B1 C1 D2
+A1 B3 C4 D3
+
+
+
+3 Broj karakteristika 
+A 3 A1 A2 A3 ----- K1 broj_blokova b1 b2 ..  
+B 4 B1 B2 B3 B4
+C 3 C1 C2 C3
+3 - broj baza
+A1 B2 C3
+A1 B1 C1
+A1 B3 C3
+

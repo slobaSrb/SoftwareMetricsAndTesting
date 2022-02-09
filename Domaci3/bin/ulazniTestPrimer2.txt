@@ -1,0 +1,4 @@
+test1
+int a = 4;
+test2
+int a = 3;

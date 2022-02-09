@@ -1,0 +1,10 @@
+test1
+long ar = 545l;
+long ar = 765l;
+int k = 4;
+boolean e = true;
+test2
+long ar = 1573l;
+long ar = 376l;
+int k = 3;
+boolean e = false;

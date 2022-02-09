@@ -1,0 +1,6 @@
+C:\fax\metrika\projects programming\Metrika Prime Path Coverage\Metrika Prime Path Coverage\bin\Debug\Metrika Prime Path Coverage.exe.config
+C:\fax\metrika\projects programming\Metrika Prime Path Coverage\Metrika Prime Path Coverage\bin\Debug\Metrika Prime Path Coverage.exe
+C:\fax\metrika\projects programming\Metrika Prime Path Coverage\Metrika Prime Path Coverage\bin\Debug\Metrika Prime Path Coverage.pdb
+C:\fax\metrika\projects programming\Metrika Prime Path Coverage\Metrika Prime Path Coverage\obj\Debug\Metrika Prime Path Coverage.csprojAssemblyReference.cache
+C:\fax\metrika\projects programming\Metrika Prime Path Coverage\Metrika Prime Path Coverage\obj\Debug\Metrika Prime Path Coverage.exe
+C:\fax\metrika\projects programming\Metrika Prime Path Coverage\Metrika Prime Path Coverage\obj\Debug\Metrika Prime Path Coverage.pdb

@@ -1,0 +1,88 @@
+Karakteristika A broj promenljivih u izrazu
+A1 1
+A2 2
+A3 3
+A4 4
+A5 5
+A6 >5
+Karakteristika B broj razlicitih operacija u zagradama (podizrazima)
+B1 0
+B2 1
+B3 2
+B4 3
+B5 4
+B6 5
+Karakteristika C broj razlicitih operacija izvan zagrada (izmedju podizraza)
+C1 0
+C2 1
+
+
+uslovi koje ulazi treba da zadovolje formirani metodom parova
+
+A1B1C1
+A1B2C2
+A1B3C1
+A1B4C2
+A1B5C1
+A1B6C2
+
+A2B1C2
+A2B2C1
+A2B3C2
+A2B4C1
+A2B5C2
+A2B6C1
+
+A3B1C1
+A3B2C2
+A3B3C1
+A3B4C2
+A3B5C1
+A3B6C2
+
+A4B1C2
+A4B2C1
+A4B3C2
+A4B4C1
+A4B5C2
+A4B6C1
+
+A5B1C1
+A5B2C2
+A5B3C1
+A5B4C2
+A5B5C1
+A5B6C2
+
+A6B1C2
+A6B2C1
+A6B3C2
+A6B4C1
+A6B5C2
+A6B6C1
+
+
+uzecemo 10 razlicitih izvodljivih kombinacija uslova za ulaze i formirati za svaki po jedan ulaz
+
+
+--A1B1C1 1 razlicitih promenljivih , 0 razlicitih operacija opN u zagradama , 0 operacija op van zagrada
+--A1B2C1 1 razlicitih promenljivih , 1 razlicitih operacija opN u zagradama , 0 operacija op van zagrada dodato iz svih kombinacija
+--A2B1C2 2 razlicitih promenljivih , 0 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+--A2B5C2 2 razlicitih promenljivih , 4 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+--A3B2C2 3 razlicitih promenljivih , 1 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+--A3B4C2 3 razlicitih promenljivih , 3 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+--A4B5C2 4 razlicitih promenljivih , 4 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+--A5B4C2 5 razlicitih promenljivih , 3 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+--A6B5C2 6 razlicitih promenljivih , 4 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+--A6B3C2 6 razlicitih promenljivih , 2 razlicitih operacija opN u zagradama , 1 operacija op van zagrada
+
+--A1B1C1	-	(a)
+--A1B2C1  	-   (a and a), (a xor a), (a implication a), (not a), (a or a)
+--A2B1C2	-	(a) or (b) , (a) and (b)
+--A2B5C2	-	(a implication b) or (b and a) or (a or b) or (b xor a) , (a implication b) and (b and a) and (a or b) and (b implication a) and (b xor a)
+--A3B2C2	-	(a implication b) and (b implication c) , (a and b) or (c and a)
+--A3B4C2	-	(a xor c) and (c implication b) and (a or b)
+--A4B5C2	-	(a implication b) and (c xor b) and (d and a) and (not c)
+--A5B4C2	-	(a xor b) or (c and b) or (d xor e) or (e implication c)
+--A6B5C2	-	(f xor d) and (a implication c) and (d and c) and (not b) and (b implication e)
+--A6B3C2	-	(f implication b) or (d and c) or (e implication a)

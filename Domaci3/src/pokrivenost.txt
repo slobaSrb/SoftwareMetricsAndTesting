@@ -1,0 +1,77 @@
+test1 originalni rezultat: 141667789514315857
+test1 strogo pokriva mutanta M1 sa rezultatom: -144289880838116993
+test1 strogo pokriva mutanta M2 sa rezultatom: 141667102743405563
+test1 strogo pokriva mutanta M3 sa rezultatom: -753105618560608856
+test1 strogo pokriva mutanta M4 sa rezultatom: -1193322363913430762
+test1 strogo pokriva mutanta M5 sa rezultatom: -29063
+test1 strogo pokriva mutanta M6 sa rezultatom: 562173372763662
+test1 strogo pokriva mutanta M7 sa rezultatom: -160643
+test1 strogo pokriva mutanta M8 sa rezultatom: 2
+test1 strogo pokriva mutanta M9 sa rezultatom: 144290567609027287
+test1 strogo pokriva mutanta M10 sa rezultatom: 714707374194319822
+test1 strogo pokriva mutanta M11 sa rezultatom: 28605389934733522
+test1 strogo pokriva mutanta M12 sa rezultatom: 686769735247
+test1 strogo pokriva mutanta M13 sa rezultatom: 6554
+test1 strogo pokriva mutanta M14 sa rezultatom: -1096
+test1 strogo pokriva mutanta M15 sa rezultatom: 7
+test1 strogo pokriva mutanta M16 sa rezultatom: 434
+test1 strogo pokriva mutanta M17 sa rezultatom: Opperation stopped after 3 seconds
+test1 strogo pokriva mutanta M18 sa rezultatom: 142716832075109707
+test1 strogo pokriva mutanta M19 sa rezultatom: 141669846684946897
+test1 strogo pokriva mutanta M20 sa rezultatom: There was an exception Index 5 out of bounds for length 5
+test1 strogo pokriva mutanta M21 sa rezultatom: There was an exception Index 5 out of bounds for length 5
+test1 strogo pokriva mutanta M22 sa rezultatom: 199384016557926157
+test1 strogo pokriva mutanta M23 sa rezultatom: -20965762015581278
+test1 strogo pokriva mutanta M24 sa rezultatom: 26012184790423657
+test1 strogo pokriva mutanta M25 sa rezultatom: -9144436396454821397
+test1 strogo pokriva mutanta M26 sa rezultatom: 343385455147
+test1 strogo pokriva mutanta M27 sa rezultatom: 833092
+test1 strogo pokriva mutanta M28 sa rezultatom: 185911256958167
+test1 strogo pokriva mutanta M29 sa rezultatom: 416932
+test1 strogo pokriva mutanta M30 sa rezultatom: 1817499859133586711
+test1 strogo pokriva mutanta M31 sa rezultatom: 1001392
+test1 strogo pokriva mutanta M32 sa rezultatom: 2710
+test1 strogo pokriva mutanta M33 sa rezultatom: 585232
+test1 strogo pokriva mutanta M34 sa rezultatom: 545
+test1 strogo pokriva mutanta M35 sa rezultatom: 765
+test1 strogo pokriva mutanta M36 sa rezultatom: 141669160362909541
+test1 strogo pokriva mutanta M37 sa rezultatom: 142716488688484117
+test2 originalni rezultat: 53441262
+test2 ne pokriva strogo mutanta M1 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M2 sa rezultatom: -53441262
+test2 ne pokriva strogo mutanta M3 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M4 sa rezultatom: 0
+test2 ne pokriva strogo mutanta M5 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M6 sa rezultatom: 0
+test2 ne pokriva strogo mutanta M7 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M8 sa rezultatom: 0
+test2 ne pokriva strogo mutanta M9 sa rezultatom: 53441262
+test2 ne pokriva strogo mutanta M10 sa rezultatom: 53441262
+test2 ne pokriva strogo mutanta M11 sa rezultatom: 53441262
+test2 ne pokriva strogo mutanta M12 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M13 sa rezultatom: 1516
+test2 strogo pokriva mutanta M14 sa rezultatom: -1492
+test2 strogo pokriva mutanta M15 sa rezultatom: 6
+test2 strogo pokriva mutanta M16 sa rezultatom: 12
+test2 strogo pokriva mutanta M17 sa rezultatom: Opperation stopped after 3 seconds
+test2 ne pokriva strogo mutanta M18 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M19 sa rezultatom: 319794774
+test2 strogo pokriva mutanta M20 sa rezultatom: There was an exception Index 5 out of bounds for length 5
+test2 strogo pokriva mutanta M21 sa rezultatom: There was an exception Index 5 out of bounds for length 5
+test2 ne pokriva strogo mutanta M22 sa rezultatom: 53441262
+test2 ne pokriva strogo mutanta M23 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M24 sa rezultatom: 3897072900
+test2 strogo pokriva mutanta M25 sa rezultatom: 150
+test2 ne pokriva strogo mutanta M26 sa rezultatom: 53441262
+test2 ne pokriva strogo mutanta M27 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M28 sa rezultatom: 0
+test2 strogo pokriva mutanta M29 sa rezultatom: 591454
+test2 ne pokriva strogo mutanta M30 sa rezultatom: 53441262
+test2 ne pokriva strogo mutanta M31 sa rezultatom: 53441262
+test2 strogo pokriva mutanta M32 sa rezultatom: 0
+test2 strogo pokriva mutanta M33 sa rezultatom: 141382
+test2 strogo pokriva mutanta M34 sa rezultatom: 1573
+test2 strogo pokriva mutanta M35 sa rezultatom: 376
+test2 strogo pokriva mutanta M36 sa rezultatom: 266353514
+test2 ne pokriva strogo mutanta M37 sa rezultatom: 53441262
+skup testova strogo pokriva skup mutanata

@@ -1,0 +1,20 @@
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Domaci4.exe.config
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Domaci4.exe
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Domaci4.pdb
+C:\fax\metrika\projects programming\Domaci4\Domaci4\obj\Debug\Domaci4.csprojAssemblyReference.cache
+C:\fax\metrika\projects programming\Domaci4\Domaci4\obj\Debug\Domaci4.exe
+C:\fax\metrika\projects programming\Domaci4\Domaci4\obj\Debug\Domaci4.pdb
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\UnitTestProject1.dll
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\UnitTestProject1.pdb
+C:\fax\metrika\projects programming\Domaci4\Domaci4\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\fax\metrika\projects programming\Domaci4\Domaci4\obj\Debug\Domaci4.csproj.CopyComplete
+C:\fax\metrika\projects programming\Domaci4 - Copy\Domaci4\bin\Debug\Domaci4.exe.config
+C:\fax\metrika\projects programming\Domaci4 - Copy\Domaci4\bin\Debug\Domaci4.exe
+C:\fax\metrika\projects programming\Domaci4 - Copy\Domaci4\bin\Debug\Domaci4.pdb
+C:\fax\metrika\projects programming\Domaci4 - Copy\Domaci4\obj\Debug\Domaci4.csprojAssemblyReference.cache
+C:\fax\metrika\projects programming\Domaci4 - Copy\Domaci4\obj\Debug\Domaci4.exe
+C:\fax\metrika\projects programming\Domaci4 - Copy\Domaci4\obj\Debug\Domaci4.pdb

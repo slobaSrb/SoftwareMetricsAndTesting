@@ -1,0 +1,436 @@
+
+M1:
+public static long funkMutant1 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum -  /* <- mutant */ ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+M2:
+public static long funkMutant2 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 -  /* <- mutant */ pi[i];
+}
+		return sum;
+}
+M3:
+public static long funkMutant3 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum *  /* <- mutant */ ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+M4:
+public static long funkMutant4 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 *  /* <- mutant */ pi[i];
+}
+		return sum;
+}
+M5:
+public static long funkMutant5 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum /  /* <- mutant */ ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+M6:
+public static long funkMutant6 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 /  /* <- mutant */ pi[i];
+}
+		return sum;
+}
+M7:
+public static long funkMutant7 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum %  /* <- mutant */ ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+M8:
+public static long funkMutant8 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 %  /* <- mutant */ pi[i];
+}
+		return sum;
+}
+M9:
+	public static long funkMutant9 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar +  /* <- mutant */ j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M10:
+	public static long funkMutant10 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar *  /* <- mutant */ j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M11:
+	public static long funkMutant11 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar /  /* <- mutant */ j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M12:
+	public static long funkMutant12 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar %  /* <- mutant */ j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M13:
+	public static long funkMutant13 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum +  /* <- mutant */ ar2 + pi[i];
+}
+		return sum;
+}
+
+M14:
+	public static long funkMutant14 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum -  /* <- mutant */ ar2 + pi[i];
+}
+		return sum;
+}
+
+M15:
+	public static long funkMutant15 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum /  /* <- mutant */ ar2 + pi[i];
+}
+		return sum;
+}
+
+M16:
+	public static long funkMutant16 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum %  /* <- mutant */ ar2 + pi[i];
+}
+		return sum;
+}
+
+M17:
+	public static long funkMutant17 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++k /* <- mutant */ ) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M18:
+	public static long funkMutant18 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[k /* <- mutant */ ];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M19:
+	public static long funkMutant19 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 + pi[k /* <- mutant */ ];
+}
+		return sum;
+}
+
+M20:
+	public static long funkMutant20 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; k /* <- mutant */  <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M21:
+	public static long funkMutant21 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= i /* <- mutant */ ; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M22:
+	public static long funkMutant22 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar2 /* <- mutant */  - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M23:
+	public static long funkMutant23 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + sum /* <- mutant */  - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M24:
+	public static long funkMutant24 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar /* <- mutant */  + pi[i];
+}
+		return sum;
+}
+
+M25:
+	public static long funkMutant25 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * sum /* <- mutant */  + pi[i];
+}
+		return sum;
+}
+
+M26:
+	public static long funkMutant26 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) ar /* <- mutant */  = sum + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M27:
+	public static long funkMutant27 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = ar /* <- mutant */  + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M28:
+	public static long funkMutant28 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			ar /* <- mutant */  = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M29:
+	public static long funkMutant29 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = ar /* <- mutant */  * ar2 + pi[i];
+}
+		return sum;
+}
+
+M30:
+	public static long funkMutant30 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) ar2 /* <- mutant */  = sum + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M31:
+	public static long funkMutant31 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = ar2 /* <- mutant */  + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M32:
+	public static long funkMutant32 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			ar2 /* <- mutant */  = sum * ar2 + pi[i];
+}
+		return sum;
+}
+
+M33:
+	public static long funkMutant33 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = ar2 /* <- mutant */  * ar2 + pi[i];
+}
+		return sum;
+}
+
+M34:
+	public static long funkMutant34 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return ar /* <- mutant */ ;
+}
+
+M35:
+	public static long funkMutant35 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 + pi[i];
+}
+		return ar2 /* <- mutant */ ;
+}
+
+M36:
+	public static long funkMutant36 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - j[i];
+			sum = sum * ar2 + j[ /* <- mutant */ i];
+}
+		return sum;
+}
+
+M37:
+	public static long funkMutant37 (long ar, long ar2, int k, boolean e) {
+		long sum = 0;
+		long[] pi = new long[]{1,2,3,6,7};
+		long[] j = new long[]{5,4,3,2,1};
+		for(int i = 0; i <= k; ++i) {
+			if(e) sum = sum + ar - pi[ /* <- mutant */ i];
+			sum = sum * ar2 + pi[i];
+}
+		return sum;
+}

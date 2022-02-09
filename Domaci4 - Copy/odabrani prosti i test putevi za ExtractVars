@@ -1,0 +1,62 @@
+prostiPutevi
+1, 2, 3, 4
+2, 3, 4, 2
+3, 4, 2, 3
+2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 2
+3, 5, 6, 8, 9, 10, 11, 12, 13, 2, 3
+2, 3, 5, 2
+3, 5, 2, 3
+5, 2, 3, 5
+2, 3, 5, 6, 8, 9, 10, 11, 13, 2
+3, 5, 6, 8, 9, 10, 11, 13, 2, 3
+5, 6, 8, 9, 10, 11, 13, 2, 3, 5
+2, 3, 5, 6, 8, 9, 10, 13, 2
+3, 5, 6, 8, 9, 10, 13, 2, 3
+5, 6, 8, 9, 10, 13, 2, 3, 5
+2, 3, 5, 6, 7, 13, 2
+2, 3, 5, 6, 8, 9, 13, 2
+3, 5, 6, 8, 9, 13, 2, 3
+5, 6, 8, 9, 13, 2, 3, 5
+2, 3, 5, 6, 8, 13, 2
+3, 5, 6, 8, 13, 2, 3
+
+ulaz koji ih pokriva
+(a xor not b) and (not c implication d) and (a or d) and (a) and (not a and not c) and (not b)
+
+testPut koji ih pokriva
+1, 2, 3, 4, 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 2, 3, 5, 2, 3, 5, 6, 8, 9, 10, 11, 13, 2, 3, 5, 2, 3, 5, 6, 8, 9, 10, 13, 2, 3, 5, 2, 3, 5, 6, 7, 13, 2, 3, 5, 2, 3, 5, 6, 8, 9, 13, 2, 3, 5, 2, 3, 5, 6, 8, 13, 2, 3, 4, 2, 14
+
+
+prost put 
+4, 2, 3, 5, 6, 8, 9, 10, 13
+ulaz
+(a and b)
+test put koji ga pokriva
+1, 2, 3, 4, 2, 3, 5, 6, 8, 9, 10, 13, 2, 3, 4, 2, 14
+
+prost put
+4, 2, 3, 5, 6, 7, 13
+3, 4, 2, 14
+ulaz
+(a)
+test put koji ga pokriva
+1, 2, 3, 4, 2, 3, 5, 6, 7, 13, 2, 3, 4, 2, 14
+
+prost put
+6, 7, 13, 2, 3, 5, 6
+je nemoguce dostici zbog splitovanja stringova
+isto i 
+1, 2, 3, 5, 6, 7, 13
+1, 2, 3, 5, 6, 8, 9, 10, 11, 12, 13
+
+
+5, 6, 8, 9, 10, 11, 12, 13, 2, 3, 4 ne moze
+ali moze
+5, 6, 8, 9, 10, 11, 12, 13, 2, 3, 5 prvi ulaz
+
+prost put
+4, 2, 3, 5, 6, 8, 9, 10, 11, 13
+(not a xor b)
+1, 2, 3, 4, 2, 3, 5, 6, 8, 9, 10, 11, 13, 2, 3, 4, 2, 14
+
+sada samo da uradimo testove za date ulaze i da vidimo da li metoda ExtractVars vraca sve promenljive

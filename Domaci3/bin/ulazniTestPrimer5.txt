@@ -1,0 +1,8 @@
+test1
+double[] ar = new double[]{ 1, 2, 3, 4, 5 };
+double[] ar = new double[]{ 3, 6, 9, 12, 15 };
+double k = 4;
+test2
+double[] ar = new double[]{ 5, 4, 3, 2, 1 };
+double[] ar = new double[]{ 15, 12, 9, 12, 15 };
+double k = 3;

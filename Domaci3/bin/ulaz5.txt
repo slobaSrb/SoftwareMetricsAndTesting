@@ -1,0 +1,11 @@
+	public static double funk (double[] ar, double[] ar2, double k) 
+	{ 
+		double sum = 0;
+		
+		for(int i = 0; i <= k; ++i) {
+			sum = sum + ar[i];
+			sum = sum * ar2[i];
+		}
+
+		return sum;
+	} 

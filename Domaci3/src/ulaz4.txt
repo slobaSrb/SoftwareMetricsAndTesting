@@ -1,0 +1,6 @@
+	public static long funk (int ar) 
+	{ 
+		int m = 15;
+		int s = 10;
+		return ar;
+	} 
